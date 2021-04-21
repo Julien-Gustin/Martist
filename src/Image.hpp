@@ -4,10 +4,6 @@
 #include "Expression.hpp"
 #include <cstdint>
 
-#define NB_COLORS 3
-#define MAX_RGB 255
-#define ENDL '\n'
-
 typedef enum
 {
     Red,

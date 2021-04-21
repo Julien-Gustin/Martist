@@ -1,6 +1,9 @@
 #include "Image.hpp"
-#include <iostream>
 #include <vector>
+
+#define NB_COLORS 3
+#define MAX_RGB 255
+#define ENDL '\n'
 
 /**
  * @brief Rescale `x` to scale in [-1, 1], [0, size-1] -> [-1, 1]

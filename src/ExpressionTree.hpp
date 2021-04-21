@@ -1,7 +1,6 @@
 #ifndef __EXPRESSIONTREE__
 #define __EXPRESSIONTREE__
 
-#include <functional>
 #include <memory>
 #include <string>
 

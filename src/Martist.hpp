@@ -9,11 +9,7 @@
 class Martist
 {
 private:
-    std::size_t _width;
-    std::size_t _height;
-
-    std::uint8_t *_buffer;
-
+    // max depth of the differents color's expression
     std::size_t _redDepth, _greenDepth, _blueDepth;
 
     // image of the lastest paint

@@ -1,4 +1,5 @@
 #include "Martist.hpp"
+
 #include <string>
 #include <memory>
 #include <tuple>
@@ -7,9 +8,9 @@
 Martist::Martist(std::uint8_t *buffer, std::size_t width, std::size_t height, std::size_t redDepth, std::size_t greenDepth, std::size_t blueDepth)
     : _rgb_image(buffer, width, height)
 {
-    (*this)._redDepth = redDepth;
-    (*this)._greenDepth = greenDepth;
-    (*this)._blueDepth = blueDepth;
+    _redDepth = redDepth;
+    _greenDepth = greenDepth;
+    _blueDepth = blueDepth;
 }
 
 void Martist::redDepth(std::size_t depth) { _redDepth = depth; }
