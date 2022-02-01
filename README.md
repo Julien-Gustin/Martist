@@ -43,3 +43,14 @@ The PNM image can then be converted to PNG by using the following command
 </p>
 
 
+<p align="center">
+  <img src="https://github.com/Julien-Gustin/Martist/blob/master/figures/out2.png?raw=true" />
+  <br>
+  <em style="text-align:center">RGB depth: 3, dimension 1000x1000</em>
+</p>
+
+<p align="center">
+  <img src="https://github.com/Julien-Gustin/Martist/blob/master/figures/out3.png?raw=true" />
+  <br>
+  <em style="text-align:center">RGB depth: 10, dimension 1000x1000</em>
+</p>
