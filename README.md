@@ -37,7 +37,7 @@ The PNM image can then be converted to PNG by using the following command
 # Example
 
 <p align="center">
-  <img src="https://github.com/Julien-Gustin/Martist/blob/master/figures/out.png?raw=true" />
+  <img src="https://github.com/Julien-Gustin/Martist/blob/master/figures/out1.png?raw=true" />
   <br>
   <em style="text-align:center">RGB depth: 5, dimension 1000x1000</em>
 </p>
