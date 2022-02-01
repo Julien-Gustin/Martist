@@ -23,3 +23,10 @@ The expression formed is represented in a tree such that
 
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;cos(\pi (x \times sin(\pi y)))" title="\Large cos(\pi (x \times sin(\pi y)))" />
 
+The expression will be randomly generated for each RGB color by given the maximum depth for each of them
+
+# How to use it?
+
+`./run.sh`
+
+The follow instruction on the prompt
