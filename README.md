@@ -21,5 +21,5 @@ The expression formed is represented in a tree such that
   <em style="text-align:center">Tree representati</em>
 </p>
 
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;cos(\pi (x \times sin(\pi y))" title="\Large cos(\pi (x \times sin(\pi y))" />
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;cos(\pi (x \times sin(\pi y)))" title="\Large cos(\pi (x \times sin(\pi y)))" />
 
