@@ -22,4 +22,4 @@ The expression formed is represented in a tree such that
 </p>
 
 
-![\Large cos(\pi (x \times sin(\pi y)))](https://latex.codecogs.com/svg.latex?\Large&space;cos(\pi (x \times sin(\pi y)))) 
+![\Large cos(\pi (x \times sin(\pi y)))](https://latex.codecogs.com/svg.latex?\Large&space;cos(\pi (x \times sin(\pi y))
