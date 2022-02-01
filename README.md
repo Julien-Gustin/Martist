@@ -15,4 +15,8 @@ The expression formed is represented in a tree such that
 
 **xys*c** is $cos(\pi ( x \times sin(\pi y)))$
 
-<image src="figures/expression.pdf"/>
+<p align="center">
+  <img src="https://github.com/Julien-Gustin/Martist/blob/master/figures/expression.pdf?raw=true" />
+  <br>
+  <em style="text-align:center">(a) is the original image, (b) crushed's image (naive), (c) crushed's image with slimming</em>
+</p>
