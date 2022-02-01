@@ -11,7 +11,7 @@ Mathematical artist is a program that generate random *artistic* pictures using 
 - avg(*expr*, *expr*) - a
 - product(*expr*, *expr*) - X
 
-The expression formed is represented in a tree such that 
+The expression formed is represented by a traversal expression. Exemple
 
 **cos(pi(x * sin(pi y)))** => **xys*c** 
 
