@@ -16,9 +16,9 @@ The expression formed is represented in a tree such that
 **xys*c** is $cos(\pi ( x \times sin(\pi y)))$
 
 <p align="center">
-  <img src="https://github.com/Julien-Gustin/Martist/blob/master/figures/expression.pdf?raw=true" />
+  <img src="https://github.com/Julien-Gustin/Martist/blob/master/figures/tree.png?raw=true" />
   <br>
-  <em style="text-align:center">Tree representati</em>
+  <em style="text-align:center">Tree representation</em>
 </p>
 
 <img src="https://latex.codecogs.com/svg.latex?\Large&space;cos(\pi (x \times sin(\pi y)))" title="\Large cos(\pi (x \times sin(\pi y)))" />
