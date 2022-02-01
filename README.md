@@ -1,6 +1,6 @@
 # Martist
 
-Mathematical artist is a program that generate random *artistic* pictures using mathematical expression taking `x` and `y` positions as value.
+Mathematical artist is a program that generate random *artistic* pictures using mathematical expression taking `x` and `y` positions as input of an expression.
 
 # Expressions
 
@@ -35,7 +35,7 @@ The PNM image can then be converted to PNG by using the following command
 ```sh
 pnmtopng -phys [width] [height] 0 out.pnm > out.png
 ```
-# Example
+# Examples
 
 <p align="center">
   <img src="https://github.com/Julien-Gustin/Martist/blob/master/figures/out1.png?raw=true" />
