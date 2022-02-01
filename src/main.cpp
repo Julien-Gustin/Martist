@@ -32,31 +32,51 @@ void to_pnm(std::uint8_t *buffer, size_t width, size_t height)
 
 int main(int argc, char const *argv[])
 {
+  const char error_msg[] = "All parameters should be integer";
 
-  string test = "xyays*";
-  size_t width = 1000;
-  size_t height = 1000;
+  size_t width;
+  size_t height;
+
+  size_t redDepth;
+  size_t greenDepth;
+  size_t blueDepth;
+
+  try{
+    cout << "Dimension of the squared picture (int) => ";
+    cin >> width;
+    height = width;
+
+    cout << "Depth of the red color expression (int) => ";
+    cin >> redDepth;
+
+      cout << "Depth of the green color expression (int) => ";
+    cin >> greenDepth;
+
+      cout << "Depth of the blue color expression (int) => ";
+    cin >> blueDepth;
+  }catch(exception& e)
+  {
+    cout << error_msg << endl;
+    return -1;
+  }
+
   std::uint8_t *buffer = new uint8_t[width * height * 3];
-  Martist m(buffer, width, height, stoi(argv[1]), stoi(argv[2]), stoi(argv[3]));
 
-  cout << m << endl; // test 
+  Martist m(buffer, width, height, redDepth, greenDepth, blueDepth);
 
   char tmp;
 
-  while (1) // comment this loop if you want to try your own spec on command line
+  while (1) 
   {
     m.paint();
     to_pnm(buffer, width, height);
     cout << m;
-
-    cin >> tmp; // clic a char and enter
+    cout << "See the generated pictures in `pnm/out.png`\n\tContinue? [y/n] ";
+    cin >> tmp;
+    if(tmp != 'y')
+      return 1;
   }
 
-  cin >> m;
-  cout << m << endl;
-
-  to_pnm(buffer, width, height);
-  /* code */
   return 0;
 }
 
