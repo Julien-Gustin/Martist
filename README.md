@@ -18,5 +18,8 @@ The expression formed is represented in a tree such that
 <p align="center">
   <img src="https://github.com/Julien-Gustin/Martist/blob/master/figures/expression.pdf?raw=true" />
   <br>
-  <em style="text-align:center">(a) is the original image, (b) crushed's image (naive), (c) crushed's image with slimming</em>
+  <em style="text-align:center">Tree representati</em>
 </p>
+
+
+![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}) 
