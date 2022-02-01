@@ -22,4 +22,4 @@ The expression formed is represented in a tree such that
 </p>
 
 
-![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}) 
+![\Large cos(\pi (x \times sin(\pi y)))](https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}) 
