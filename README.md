@@ -6,14 +6,14 @@ Mathematical artist is a program that generate random *artistic* pictures using 
 
 - x - x
 - y - y
-- sin( $\pi \times$ *expr*) - s
-- cos( $\pi \times$ *expr*) - c
+- sin(pi * *expr*) - s
+- cos(pi * *expr*) - c
 - avg(*expr*, *expr*) - a
 - product(*expr*, *expr*) - x
 
 The expression formed is represented in a tree such that 
 
-**xys*c** is $cos(\pi ( x \times sin(\pi y)))$
+**cos(pi(x * sin(pi y)))** => **xys*c** 
 
 <p align="center">
   <img src="https://github.com/Julien-Gustin/Martist/blob/master/figures/tree.png?raw=true" />
