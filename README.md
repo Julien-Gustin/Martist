@@ -30,3 +30,13 @@ The expression will be randomly generated for each RGB color by given the maximu
 `./run.sh`
 
 The follow instruction on the prompt
+
+
+
+# Example
+
+<p align="center">
+  <img src="https://github.com/Julien-Gustin/Martist/blob/master/figures/out1.pnm?raw=true" />
+  <br>
+  <em style="text-align:center">Tree representation</em>
+</p>
